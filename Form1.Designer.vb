@@ -22,7 +22,6 @@ Partial Class KaraokeMusicNight
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.picMusic = New System.Windows.Forms.PictureBox()
         Me.lblHeading = New System.Windows.Forms.Label()
         Me.cboSelection = New System.Windows.Forms.ComboBox()
         Me.lblSongsHours = New System.Windows.Forms.Label()
@@ -30,18 +29,9 @@ Partial Class KaraokeMusicNight
         Me.btnTotalCost = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.lblTotalCost = New System.Windows.Forms.Label()
+        Me.picMusic = New System.Windows.Forms.PictureBox()
         CType(Me.picMusic, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'picMusic
-        '
-        Me.picMusic.BackgroundImage = Global.KaraokeMusicNight_CPSC3118.My.Resources.Resources.karaoke
-        Me.picMusic.Location = New System.Drawing.Point(0, 0)
-        Me.picMusic.Name = "picMusic"
-        Me.picMusic.Size = New System.Drawing.Size(350, 457)
-        Me.picMusic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.picMusic.TabIndex = 0
-        Me.picMusic.TabStop = False
         '
         'lblHeading
         '
@@ -64,6 +54,7 @@ Partial Class KaraokeMusicNight
         Me.cboSelection.Name = "cboSelection"
         Me.cboSelection.Size = New System.Drawing.Size(407, 29)
         Me.cboSelection.TabIndex = 2
+        Me.cboSelection.Text = "Customize Your Night"
         '
         'lblSongsHours
         '
@@ -83,6 +74,7 @@ Partial Class KaraokeMusicNight
         Me.txtInputNum.Name = "txtInputNum"
         Me.txtInputNum.Size = New System.Drawing.Size(64, 33)
         Me.txtInputNum.TabIndex = 4
+        Me.txtInputNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'btnTotalCost
         '
@@ -114,6 +106,16 @@ Partial Class KaraokeMusicNight
         Me.lblTotalCost.TabIndex = 7
         Me.lblTotalCost.Text = "Total Cost of Karaoke Night - $X.XX"
         Me.lblTotalCost.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'picMusic
+        '
+        Me.picMusic.BackgroundImage = Global.KaraokeMusicNight_CPSC3118.My.Resources.Resources.karaoke
+        Me.picMusic.Location = New System.Drawing.Point(0, 0)
+        Me.picMusic.Name = "picMusic"
+        Me.picMusic.Size = New System.Drawing.Size(350, 457)
+        Me.picMusic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
+        Me.picMusic.TabIndex = 0
+        Me.picMusic.TabStop = False
         '
         'KaraokeMusicNight
         '

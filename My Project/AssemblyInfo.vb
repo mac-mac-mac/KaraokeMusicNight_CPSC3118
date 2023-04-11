@@ -8,7 +8,7 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("KaraokeMusicNight_CPSC3118")>
+<Assembly: AssemblyTitle("Karaoke Music")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("KaraokeMusicNight_CPSC3118")>

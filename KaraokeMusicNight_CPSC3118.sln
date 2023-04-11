@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "KaraokeMusicNight_CPSC3118", "KaraokeMusicNight_CPSC3118.vbproj", "{5C332E13-6FDA-4202-8D01-A49F5E6B5F07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C332E13-6FDA-4202-8D01-A49F5E6B5F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C332E13-6FDA-4202-8D01-A49F5E6B5F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C332E13-6FDA-4202-8D01-A49F5E6B5F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C332E13-6FDA-4202-8D01-A49F5E6B5F07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5136EB93-CC22-4D88-9B4D-73017F3ACB9F}
+	EndGlobalSection
+EndGlobal
